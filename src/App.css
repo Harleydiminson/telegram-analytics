@@ -1,0 +1,40 @@
+/*--------------------------------------------------------------
+# App
+--------------------------------------------------------------*/
+.App {
+  text-align: center;
+}
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+.header {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  height: 60px; /* Сделаем немного выше для лучшей читаемости */
+  padding: 0 20px; /* Общий отступ для содержимого */
+}
+
+.tool-bar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+ul {
+  list-style: none; /* Более краткая запись */
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Используем gap вместо margin для отступов между элементами */
+}
+
+li {
+  color: white;
+}
+
+input {
+  margin-left: 10px;
+}
+
