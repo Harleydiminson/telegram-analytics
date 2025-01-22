@@ -11,8 +11,8 @@
   background-color: black;
   display: flex;
   align-items: center;
-  height: 60px; /* Сделаем немного выше для лучшей читаемости */
-  padding: 0 20px; /* Общий отступ для содержимого */
+  height: 60px; 
+  padding: 0 20px; 
 }
 
 .tool-bar {
@@ -22,12 +22,12 @@
 }
 
 ul {
-  list-style: none; /* Более краткая запись */
+  list-style: none; 
   padding: 0;
   margin: 0;
   display: flex;
   align-items: center;
-  gap: 20px; /* Используем gap вместо margin для отступов между элементами */
+  gap: 20px; 
 }
 
 li {
