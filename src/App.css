@@ -19,6 +19,8 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 ul {
@@ -34,7 +36,57 @@ li {
   color: white;
 }
 
-input {
-  margin-left: 10px;
+.search-button {
+  font-size: 1 rem;
+  padding: 5px 10px;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
 }
+
+.search-button:hover {
+  background-color: rgba(255, 255, 255, 0.3); /* Легкое затемнение */
+  color: bisque;
+  transition: background-color 0.2s ease; /* Плавный переход */
+}
+
+.search-button:active {
+  margin-top: 5px;
+}
+
+input {
+  margin-left: px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 1 rem;
+}
+
+input:focus {
+  width: 300px;
+  transition: width 5.0s ease;
+}
+
+.hover-button {
+  font-size: 1.35rem;
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.hover-button:hover {
+  background-color: #2980b9;
+  color: bisque;
+}
+
+.hover-button:active {
+  margin-top: 5px;
+}
+
+
+
 

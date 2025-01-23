@@ -8,13 +8,15 @@ function Header() {
         <nav className="tool-bar">
           <ul>
             <li><h1>ANALYTICS</h1></li>
+            <button className="search-button">Search</button>
             <li>
-              Search
               <input type="text" />
             </li>
           </ul>
           <ul>
-            <li>About</li>
+            <li>
+              <button className="hover-button">Sign in</button>
+            </li>
           </ul>
         </nav>
       </header>
